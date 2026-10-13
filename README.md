@@ -1,5 +1,12 @@
 # AI Cloud Cost Optimization Platform
 
+## Overview
+
+An AI and DevOps lab for spotting wasted cloud spend with a simple idle-disk heuristic. `POST /agent/run` takes posted disk rows and flags any that are not attached and are 100 GB or larger. A versioned ops API under `/v1` adds workspaces, tenant isolation, job approval and audit records, with Docker packaging and pytest tests in GitHub Actions.
+
+- **Built with:** Python, pytest, Docker, GitHub Actions
+- **Scope:** Local laptop lab working on posted rows; it calls no hosted model and does not apply production changes.
+
 <!-- project-guide:start -->
 ## Project guide
 
